@@ -1,0 +1,16 @@
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\bin\Release\SalesForceClientEntities.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\bin\Release\SalesForceClientEntities.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.csprojResolveAssemblyReference.cache
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.pdb
+D:\SalesForceClient\SalesForceClientEntities\bin\Release\SalesForceClientEntities.dll
+D:\SalesForceClient\SalesForceClientEntities\bin\Release\SalesForceClientEntities.pdb
+D:\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.csprojResolveAssemblyReference.cache
+D:\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.dll
+D:\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\bin\Release\SalesForceClientEntities.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\bin\Release\SalesForceClientEntities.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.csprojResolveAssemblyReference.cache
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.csproj.CoreCompileInputs.cache
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Release\SalesForceClientEntities.pdb

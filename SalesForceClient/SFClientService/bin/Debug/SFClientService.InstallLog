@@ -1,0 +1,34 @@
+﻿Installing assembly 'C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.InstallLog
+   assemblypath = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe
+Installing service SFService...
+Service SFService has been successfully installed.
+Creating EventLog source SFService in log Application...
+Committing assembly 'C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.InstallLog
+   assemblypath = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe
+Uninstalling assembly 'C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.InstallLog
+   assemblypath = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe
+Removing EventLog source SFService.
+Service SFService is being removed from the system...
+Service SFService was successfully removed from the system.
+Installing assembly 'C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.InstallLog
+   assemblypath = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe
+Installing service SFService...
+Service SFService has been successfully installed.
+Creating EventLog source SFService in log Application...
+Committing assembly 'C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.InstallLog
+   assemblypath = C:\Sunil\Projects\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe

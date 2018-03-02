@@ -1,0 +1,67 @@
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientBL.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientBL.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\Newtonsoft.Json.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientDAL.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientEntities.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SFClientServiceLogger.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\log4net.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientDAL.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientEntities.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\SFClientServiceLogger.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\Newtonsoft.Json.xml
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.csprojResolveAssemblyReference.cache
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientBL.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientBL.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\Newtonsoft.Json.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientDAL.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientEntities.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SFClientServiceLogger.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\log4net.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientDAL.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientEntities.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\SFClientServiceLogger.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\Newtonsoft.Json.xml
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.xml
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.csprojResolveAssemblyReference.cache
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.csproj.CoreCompileInputs.cache
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.pdb
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientBL.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientBL.pdb
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientDAL.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientEntities.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SFClientServiceLogger.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\log4net.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientDAL.pdb
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SalesForceClientEntities.pdb
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\SFClientServiceLogger.pdb
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.csprojResolveAssemblyReference.cache
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.csproj.CoreCompileInputs.cache
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientBL\obj\Debug\SalesForceClientBL.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SalesForceClientBL.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SalesForceClientBL.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\Newtonsoft.Json.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SalesForceClientDAL.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SalesForceClientEntities.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SFClientServiceLogger.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\log4net.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SalesForceClientDAL.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SalesForceClientEntities.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\SFClientServiceLogger.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\Newtonsoft.Json.xml
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\bin\Debug\System.Net.Http.Formatting.xml
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\obj\Debug\SalesForceClientBL.csprojResolveAssemblyReference.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\obj\Debug\SalesForceClientBL.csproj.CoreCompileInputs.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\obj\Debug\SalesForceClientBL.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientBL\obj\Debug\SalesForceClientBL.pdb

@@ -1,0 +1,22 @@
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb
+C:\Sunil\Projects\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csprojResolveAssemblyReference.cache
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csproj.CoreCompileInputs.cache
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb
+K:\Projects\SFDCClient\SalesForceClientNew\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csprojResolveAssemblyReference.cache
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.pdb
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csprojResolveAssemblyReference.cache
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csproj.CoreCompileInputs.cache
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
+C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csproj.CoreCompileInputs.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb
