@@ -63,25 +63,25 @@ C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientServic
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientService\obj\Debug\SFClientService.csproj.CoreCompileInputs.cache
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientService\obj\Debug\SFClientService.exe
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientService\obj\Debug\SFClientService.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SFClientService.exe.config
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SFClientService.exe
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SFClientService.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\log4net.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\Newtonsoft.Json.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SalesForceClientBL.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SalesForceClientDAL.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SalesForceClientEntities.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SFClientServiceLogger.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\System.Net.Http.Formatting.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SalesForceClientBL.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SalesForceClientDAL.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SalesForceClientEntities.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\SFClientServiceLogger.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\Newtonsoft.Json.xml
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\bin\Debug\System.Net.Http.Formatting.xml
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\obj\Debug\SFClientService.csprojResolveAssemblyReference.cache
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\obj\Debug\SFClientService.ProjectInstaller.resources
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\obj\Debug\SFClientService.csproj.GenerateResource.Cache
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\obj\Debug\SFClientService.csproj.CoreCompileInputs.cache
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\obj\Debug\SFClientService.exe
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientService\obj\Debug\SFClientService.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe.config
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SFClientService.exe
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SFClientService.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\log4net.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\Newtonsoft.Json.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SalesForceClientBL.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SalesForceClientDAL.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SalesForceClientEntities.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SFClientServiceLogger.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\System.Net.Http.Formatting.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SalesForceClientBL.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SalesForceClientDAL.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SalesForceClientEntities.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\SFClientServiceLogger.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\Newtonsoft.Json.xml
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\bin\Debug\System.Net.Http.Formatting.xml
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\obj\Debug\SFClientService.csprojResolveAssemblyReference.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\obj\Debug\SFClientService.ProjectInstaller.resources
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\obj\Debug\SFClientService.csproj.GenerateResource.Cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\obj\Debug\SFClientService.csproj.CoreCompileInputs.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\obj\Debug\SFClientService.exe
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientService\obj\Debug\SFClientService.pdb

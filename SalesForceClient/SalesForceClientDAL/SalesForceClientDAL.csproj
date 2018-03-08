@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonDAO.cs" />
+    <Compile Include="GetRevenueDL.cs" />
     <Compile Include="UpdateQueue.cs" />
     <Compile Include="GetQueueDataDL.cs" />
     <Compile Include="GetFileDetailDL.cs" />

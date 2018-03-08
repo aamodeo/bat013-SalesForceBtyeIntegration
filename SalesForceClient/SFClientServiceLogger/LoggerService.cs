@@ -19,7 +19,7 @@ namespace SFClientServiceLogger
 
         public void Init()
         {
-            string errorLogFolder = BuildLogFolderStructure() + @"SFByteIntegration.log";
+            string errorLogFolder = BuildLogFolderStructure() + @"ByteProSFClient.log";
             log4net.GlobalContext.Properties["LogPath"] = String.Concat("", errorLogFolder);
             log4net.GlobalContext.Properties["NDC"] =
                     "========================================================================================================";

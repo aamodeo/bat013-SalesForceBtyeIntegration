@@ -11,7 +11,7 @@ namespace SalesForceClientDAL
 
         public void UpdateQueueRecord(string status, string QueueID)
         {
-            string FileDataID = string.Empty;
+            //string FileDataID = string.Empty;
             objCommonDAO = new CommonDAO();
 
             try
@@ -35,7 +35,6 @@ namespace SalesForceClientDAL
 
         public void UpdateQueueRecord(string queueid, string status, string msg)
         {
-            string FileDataID = string.Empty;
             objCommonDAO = new CommonDAO();
 
             try

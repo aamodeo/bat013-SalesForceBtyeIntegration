@@ -9,14 +9,14 @@ namespace SalesForceClientDAL
         CommonDAO objCommonDAO = null;
         SqlCommand ObjCmd = null;
         
-        public DataTable GetQueueData()
+        public DataTable GetLoanQueueData() //Lost Loan Status = 4
         {
             DataTable dt = null;
             objCommonDAO = new CommonDAO();
 
             try
             {
-                ObjCmd = new SqlCommand("SELECT TOP 1 FileDataID,QueueID  FROM [ByteProSFQueue] WHERE status = 'QUEQUED' ORDER BY QueueDateTime ASC");
+                ObjCmd = new SqlCommand("SELECT TOP 1 FileDataID, QueueID, LoanStatus, OppId FROM [ByteProSFQueue] WHERE status = 'QUEQUED' ORDER BY QueueDateTime ASC");
                 ObjCmd.CommandType = CommandType.Text;                
                 ObjCmd.CommandTimeout = 600;
                 ObjCmd.Connection = objCommonDAO.GetConnection();

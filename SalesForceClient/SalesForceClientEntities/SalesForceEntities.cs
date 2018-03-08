@@ -13,6 +13,7 @@ namespace SalesForceClientEntities
         public string AccountID { get; set; }
         public string OwnerID { get; set; }
         public string ByteFileDataID { get; set; }
+        public string Amount { get; set; }        
     }
 
     public class SalesForceResponse
@@ -81,6 +82,8 @@ namespace SalesForceClientEntities
     {
         public string Name { get; set; }        
         public string StageName { get; set; }
-        public string OwnerID { get; set; }        
+        public string OwnerID { get; set; }
+        public string Amount { get; set; }
+        public string CloseDate { get; set; }        
     }    
 }

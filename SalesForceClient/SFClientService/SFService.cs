@@ -127,26 +127,15 @@ namespace SFClientService
                 if (httpResponseMessage != null && httpResponseMessage.IsSuccessStatusCode)
                 {
                     salesForceResponse = (SalesForceResponse)jsonSerializer.Deserialize(sfAuthenticationResult, typeof(SalesForceResponse));
-
                     sfd.restServiceUrl = salesForceResponse.instance_url + ConfigurationManager.AppSettings["restServiceUrlPostfix"];
 
                     LoggerService.Debug("Logged in as " + sfd.username + " in environment " + sfd.loginHost + "\n", "");
                     LoggerService.Debug("postback_url:", sfd.baseUrl);
-
                     LoggerService.Debug("response:", jsonSerializer.Serialize(salesForceResponse));
-
                     LoggerService.Debug("access_token:", salesForceResponse.access_token);
-
                     LoggerService.Debug("instance_url:", salesForceResponse.instance_url);
-
                     LoggerService.Debug("restServiceUrl:", sfd.restServiceUrl);
-
-                    LoggerService.Debug("It took " + (DateTime.Now - start).Hours + " Hour(s) " + (DateTime.Now - start).Minutes + " Minute(s) " + (DateTime.Now - start).Seconds + " Second(s) in salesforce authentication", "");
-
-                    /*DateTime hashRecordsFetchStart = DateTime.Now;
-                    LoggerService.Debug("Hash records fetching started from db at ", hashRecordsFetchStart);
-                    DateTime recordsFetchStart = DateTime.Now;
-                    LoggerService.Debug("Account records fetching started from db at ", recordsFetchStart);*/
+                    LoggerService.Debug("It took " + (DateTime.Now - start).Hours + " Hour(s) " + (DateTime.Now - start).Minutes + " Minute(s) " + (DateTime.Now - start).Seconds + " Second(s) in salesforce authentication", "");                    
                 }
                 else
                 {
@@ -158,15 +147,18 @@ namespace SFClientService
                     try
                     {
                         //Get top 1 record to process [Query 1]                        
-                        DataTable dtQueueDetail = objSalesForceBL.GetQueueData(); //Based on LoanStatus=4
+                        DataTable dtQueueDetail = objSalesForceBL.GetLoanQueueData(); //Based on LoanStatus=4
 
                         if (dtQueueDetail.Rows.Count > 0)
                         {
                             strFileDataID = dtQueueDetail.Rows[0]["FileDataID"].ToString(); //Get FileDataID
                             LoggerService.Debug("FiledataID:", strFileDataID);
-
+                            
                             queueid = dtQueueDetail.Rows[0]["QueueID"].ToString(); //Get QueueID                                                
                             LoggerService.Debug("QueueID: ", queueid);
+
+                            string strLoanStatusCode = dtQueueDetail.Rows[0]["LoanStatus"].ToString();
+                            string strOppID = dtQueueDetail.Rows[0]["OppId"].ToString();
 
                             //if you get record to process then continue...else processData = false;
                             if (strFileDataID.Length <= 0)
@@ -174,7 +166,7 @@ namespace SFClientService
                                 processData = false;
                                 LoggerService.Debug("No data found in queue table.", "INFO");
                             }
-                            else
+                            else 
                             {
                                 //UPDATE[ByteProSFQueue] SET Status = 'PROCESSING'
                                 objSalesForceBL.UpdateQueueRecord("PROCESSING", queueid);
@@ -205,7 +197,7 @@ namespace SFClientService
                                 }
                                 else
                                 {
-                                    LoggerService.Debug("No data found in Party Table", "ERROR");
+                                    LoggerService.Debug("No data found in Party Table", "INFO");
                                 }
 
 
@@ -229,49 +221,139 @@ namespace SFClientService
                                 //await objSalesForceBL.GetOpportunityAsync(salesForceResponse, "test");
                                 // retreive salesforce accountid and user id using those methods
                                 //SalesForceClientEntities.Account.AccountFields accFields = await objSalesForceBL.GetAccountAsync(salesForceResponse, CompanyNMLSID);
-
+                                LoggerService.Debug("Calling GetContactAsync", "INFO");
                                 SalesForceClientEntities.Contact.ContactFields conFileds = await objSalesForceBL.GetContactAsync(salesForceResponse, ContactNMLSID);
 
+                                LoggerService.Debug("Setting Entity", "INFO");
                                 //Set entity with data retrieved
 
-                                LoggerService.Debug("API 1.0 start", "INFO");
-                                //create opportunity
-                                SalesForceOpprtunity opp = new SalesForceOpprtunity();
-                                opp.OppurtunityName = strFileName; //FileName from dbo.FileData based on FileDataID
-                                opp.stage = "Qualification";
-                                opp.closedate = closingDate.ToString("yyyy-MM-dd");
-                                opp.ContactID = conFileds.ContactId;
-                                opp.AccountID = conFileds.AccountId;
-                                opp.OwnerID = conFileds.OwnerId;
-                                opp.ByteFileDataID = strFileDataID;
+                                if (strLoanStatusCode == "4") //New Opp. to be created. (API 1 & 1.5)
+                                {
+                                    LoggerService.Debug("API 1.0 start", "INFO");
+                                    //create opportunity
+                                    SalesForceOpprtunity opp = new SalesForceOpprtunity();
+                                    opp.OppurtunityName = strFileName; //FileName from dbo.FileData based on FileDataID
+                                    opp.stage = "Qualification";
+                                    opp.closedate = closingDate.ToString("yyyy-MM-dd");
+                                    opp.ContactID = conFileds.ContactId;
+                                    opp.AccountID = conFileds.AccountId;
+                                    opp.OwnerID = conFileds.OwnerId;
+                                    opp.ByteFileDataID = strFileDataID;
 
-                                LoggerService.Debug("Calling CreateOpportunityAsync()", "INFO");                                
-                                string opportunityId = await objSalesForceBL.CreateOpportunityAsync(salesForceResponse, opp);
-                                if (opportunityId != null)
-                                    LoggerService.Debug("Opportunity created with opportunityId:", opportunityId);
-                                else
-                                    LoggerService.Debug("Opportunity creation failed", "ERROR!!!");
+                                    LoggerService.Debug("Calling CreateOpportunityAsync()", "INFO");
+                                    string opportunityId = await objSalesForceBL.CreateOpportunityAsync(salesForceResponse, opp);
+
+                                    if (opportunityId != null)
+                                        LoggerService.Debug("Opportunity created with opportunityId:", opportunityId);
+                                    else
+                                        LoggerService.Debug("Opportunity creation failed", "ERROR!!!");
+                                    
+                                    //Update queue table with PROCESSED and oppid
+                                    objSalesForceBL.UpdateQueueRecord(queueid, "PROCESSED", opportunityId);
+                                    LoggerService.Debug("UpdateQueueRecord: PROCESSED", "INFO");
+                                    LoggerService.Debug("API 1 Over", "INFO");
+
+                                    LoggerService.Debug("API 1.5 Starts", "INFO");
+                                    SalesForceClientEntities.User.UserFields usrFileds = await objSalesForceBL.GetUserAsync(salesForceResponse, conFileds.OwnerId);
+                                    string strName = usrFileds.Name;
+                                    string strUserName = usrFileds.Username;
+                                    string strUsrEmail = usrFileds.Email;
+
+                                    //Update dbo.Party Table
+                                    objSalesForceBL.UpdatePartyRecord(strUsrEmail, strUserName, strFileDataID);
+                                    LoggerService.Debug("Update dbo.Party Table", "INFO");
+
+                                    LoggerService.Debug("API 1.5 Over", "INFO");
+                                }
+                                else if (strLoanStatusCode == "9") //Closed_Won Loan
+                                {
+                                    //Update queue table with PROCESSING and queueid
+                                    objSalesForceBL.UpdateQueueRecord("PROCESSING", queueid);
+                                    LoggerService.Debug(" Closed_Won Loan - UpdateQueueRecord: PROCESSING", "INFO");                                    
+
+                                    SalesForceOpprtunity opp = new SalesForceOpprtunity();
+                                    opp.OppurtunityName = strFileName;
+                                    opp.stage = "Closed Won";
+                                    opp.OwnerID = conFileds.OwnerId;
+                                    opp.closedate = DateTime.Now.ToString("yyyy-MM-dd");
+                                    opp.Amount = objSalesForceBL.GetRevenueinfo(strFileDataID);
+
+                                    LoggerService.Debug("Calling UpdateOpportunityAsync ", "INFO");
+                                    bool isUpdated = false;
+                                    isUpdated = await objSalesForceBL.UpdateOpportunityAsync(salesForceResponse, opp, strOppID, strLoanStatusCode);
+
+                                    if (isUpdated)
+                                    {
+                                        //Update queue table with PROCESSED and queueid
+                                        objSalesForceBL.UpdateQueueRecord("PROCESSED", queueid);
+                                        LoggerService.Debug("Closed_Won Loan - UpdateQueueRecord: PROCESSED", "INFO");
+                                    }
+                                    else
+                                    {
+                                        LoggerService.Debug("Closed_Won Loan - FAILED!!!", "ERROR");
+                                    }
+                                }
+                                else if (strLoanStatusCode == "10" || strLoanStatusCode == "59") //Closed_Lost Loan
+                                {
+                                    //Update queue table with PROCESSING and queueid
+                                    objSalesForceBL.UpdateQueueRecord("PROCESSING", queueid);
+                                    LoggerService.Debug("Closed_Lost Loan - UpdateQueueRecord: PROCESSING", "INFO");
+
+                                    SalesForceOpprtunity opp = new SalesForceOpprtunity();
+                                    opp.OppurtunityName = strFileName;
+                                    opp.stage = "Closed Lost";
+                                    opp.OwnerID = conFileds.OwnerId;
+                                    opp.closedate = DateTime.Now.ToString("yyyy-MM-dd");
+                                    opp.Amount = objSalesForceBL.GetRevenueinfo(strFileDataID);
 
 
-                                //Update queue table with PROCESSED and oppid
-                                objSalesForceBL.UpdateQueueRecord(queueid, "PROCESSED", opportunityId);
-                                LoggerService.Debug("UpdateQueueRecord: PROCESSED", "INFO");
+                                    bool isUpdated = false;
+                                    isUpdated = await objSalesForceBL.UpdateOpportunityAsync(salesForceResponse, opp, strOppID, strLoanStatusCode);
 
-                                LoggerService.Debug("API 1.5 Starts", "INFO");                                
-                                SalesForceClientEntities.User.UserFields usrFileds = await objSalesForceBL.GetUserAsync(salesForceResponse, conFileds.OwnerId);                                
-                                string strName = usrFileds.Name;
-                                string strUserName = usrFileds.Username;
-                                string strUsrEmail = usrFileds.Email;
+                                    if (isUpdated)
+                                    {
+                                        //Update queue table with PROCESSED and queueid
+                                        objSalesForceBL.UpdateQueueRecord("PROCESSED", queueid);
+                                        LoggerService.Debug("Closed_Lost Loan - UpdateQueueRecord: PROCESSED", "INFO");
+                                    }
+                                    else
+                                    {
+                                        LoggerService.Debug("Closed_Lost Loan - FAILED!!!", "ERROR");
+                                    }
+                                }
+                                else if (strLoanStatusCode == "12") //Suspended Loan
+                                {
+                                    //Update queue table with PROCESSING and queueid
+                                    objSalesForceBL.UpdateQueueRecord("PROCESSING", queueid);
+                                    LoggerService.Debug("Suspended Loan - UpdateQueueRecord: PROCESSING", "INFO");
 
-                                //Update dbo.Party Table
-                                objSalesForceBL.UpdatePartyRecord(strUsrEmail, strUserName, strFileDataID);
-                                LoggerService.Debug("Update dbo.Party Table", "INFO");
+                                    SalesForceOpprtunity opp = new SalesForceOpprtunity();
+                                    opp.OppurtunityName = strFileName;
+                                    opp.stage = "Suspended";
+                                    opp.OwnerID = conFileds.OwnerId;
+                                    opp.closedate = DateTime.Now.ToString("yyyy-MM-dd");
+                                    opp.Amount = objSalesForceBL.GetRevenueinfo(strFileDataID);
+
+
+                                    bool isUpdated = false;
+                                    isUpdated = await objSalesForceBL.UpdateOpportunityAsync(salesForceResponse, opp, strOppID, strLoanStatusCode);
+                                    if (isUpdated)
+                                    {
+                                        //Update queue table with PROCESSED and queueid
+                                        objSalesForceBL.UpdateQueueRecord("PROCESSED", queueid);
+                                        LoggerService.Debug("Suspended Loan - UpdateQueueRecord: PROCESSING", "INFO");
+                                    }
+                                    else
+                                    {
+                                        LoggerService.Debug("Suspended Loan - FAILED!!!", "ERROR");
+                                    }
+                                }
                             }
                         }
                         else
                         {
                             processData = false;
-                            LoggerService.Debug("No queued data found. Exit loop.", "ERROR");
+                            LoggerService.Debug("No queued data found. Exit loop.", "INFO");
                         }
                     }
                     catch(Exception ex)

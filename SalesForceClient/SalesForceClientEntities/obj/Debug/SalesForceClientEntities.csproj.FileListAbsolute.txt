@@ -15,8 +15,8 @@ C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClie
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csproj.CoreCompileInputs.cache
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csproj.CoreCompileInputs.cache
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SalesForceClientEntities\bin\Debug\SalesForceClientEntities.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.csproj.CoreCompileInputs.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SalesForceClientEntities\obj\Debug\SalesForceClientEntities.pdb

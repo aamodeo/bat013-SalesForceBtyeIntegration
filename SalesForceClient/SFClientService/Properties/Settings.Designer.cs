@@ -22,5 +22,14 @@ namespace SFClientService.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        public string SFClientService_SFSS_SforceService {
+            get {
+                return ((string)(this["SFClientService_SFSS_SforceService"]));
+            }
+        }
     }
 }

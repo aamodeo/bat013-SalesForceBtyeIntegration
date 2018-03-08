@@ -18,9 +18,10 @@ C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientServic
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.csproj.CoreCompileInputs.cache
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.dll
 C:\Users\byterdpdev2\Desktop\Project\Source Code\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientServiceLogger\bin\Debug\SFClientServiceLogger.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientServiceLogger\bin\Debug\SFClientServiceLogger.pdb
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientServiceLogger\bin\Debug\log4net.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.csproj.CoreCompileInputs.cache
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.dll
-K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\SalesForceClient -BKP 7.2\SalesForceClient -BKP 7.2\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\bin\Debug\SFClientServiceLogger.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\bin\Debug\SFClientServiceLogger.pdb
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\bin\Debug\log4net.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.csprojResolveAssemblyReference.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.csproj.CoreCompileInputs.cache
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.dll
+K:\Projects\ByteProInt\SourceCode\BytePro SFDC Client BKP Codes\API 3\SalesForceClient\SFClientServiceLogger\obj\Debug\SFClientServiceLogger.pdb
