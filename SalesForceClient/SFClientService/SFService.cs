@@ -106,23 +106,26 @@ namespace SFClientService
                 
                 SalesForceConnectionData sfd = objSalesForceBL.GetSalesForceConnectionData();
 
-                using (HttpClient httpClient = new HttpClient())
-                {
-                    FormUrlEncodedContent formUrlEncodedContent = new FormUrlEncodedContent(new[]
+                if (sfd.securityToken != null && sfd.securityToken.Length > 0)
+                    sfd.password = sfd.password + sfd.securityToken;
+
+                    using (HttpClient httpClient = new HttpClient())
                     {
-                       new KeyValuePair<string, string>("grant_type", "password"),
-                       new KeyValuePair<string, string>("username",  sfd.username),
-                       new KeyValuePair<string, string>("password", sfd.password+sfd.securityToken),
-                       new KeyValuePair<string, string>("client_id", sfd.consumerKey),
-                       new KeyValuePair<string, string>("client_secret", sfd.consumerSecret)
-                   });
+                        FormUrlEncodedContent formUrlEncodedContent = new FormUrlEncodedContent(new[]
+                        {
+                            new KeyValuePair<string, string>("grant_type", "password"),
+                            new KeyValuePair<string, string>("username",  sfd.username),
+                            new KeyValuePair<string, string>("password", sfd.password),
+                            new KeyValuePair<string, string>("client_id", sfd.consumerKey),
+                            new KeyValuePair<string, string>("client_secret", sfd.consumerSecret)
+                        });
 
-                    //The line below enables TLS1.1 and TLS1.2
-                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                        //The line below enables TLS1.1 and TLS1.2
+                        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-                    httpResponseMessage = await httpClient.PostAsync(sfd.baseUrl, formUrlEncodedContent);
-                    sfAuthenticationResult = await httpResponseMessage.Content.ReadAsStringAsync();
-                }
+                        httpResponseMessage = await httpClient.PostAsync(sfd.baseUrl, formUrlEncodedContent);
+                        sfAuthenticationResult = await httpResponseMessage.Content.ReadAsStringAsync();
+                    }
 
                 if (httpResponseMessage != null && httpResponseMessage.IsSuccessStatusCode)
                 {
